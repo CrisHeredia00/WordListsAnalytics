@@ -36,7 +36,7 @@ plt_server <- function(input, output, session) {
     # Input options for cleaning process
     if ("Change all data to lower case" %in% input$clean_options) {
       # data_clean <- data_clean %>% dplyr::mutate_if(is.character, tolower)
-      print(data_clean)
+      #print(data_clean)
       data_clean <- dplyr::mutate_if(data_clean, is.character, tolower)
     }
     if ("Delete repeated rows" %in% input$clean_options) {

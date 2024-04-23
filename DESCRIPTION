@@ -1,7 +1,7 @@
 Package: WordListsAnalytics
 Type: Package
 Title: Multiple Data Analysis Tools for Property Listing Tasks
-Version: 0.2.1
+Version: 0.2.2
 Authors@R: c(
     person("Sebastian","Moreno",role = c("aut", "cre"),
            email = "sebastian.moreno.araya@gmail.com"),
