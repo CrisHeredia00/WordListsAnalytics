@@ -264,7 +264,7 @@ plt_server <- function(input, output, session) {
 
   # Renders text explaining s value
   output$s_explanation <- shiny::renderText({
-    "The 's' value represents the average size of a property sample derived from a concept. It is computed by determining the mean size of the properties associated with each concept."
+    "The 's' value represents the average list length (nr. of properties) listed by participants for a given concept."
   })
 
   # Data for P(A)
