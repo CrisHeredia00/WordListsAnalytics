@@ -22,6 +22,22 @@ For example:
 WordListsAnalytics()
 ```
 
+## Data available
+
+In the package there are two PLT data frames that can be loaded: CPN_27 and CPN_120.
+
+To load the CPN_27 data into the R environment:
+
+```R
+data(CPN_27)
+```
+
+To load the CPN_120 data into the R environment:
+
+```R
+data(CPN_120)
+```
+
 ## License
 
 This project is licensed under GPL >= 3.
